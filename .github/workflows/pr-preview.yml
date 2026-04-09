@@ -2,7 +2,7 @@ name: PR Open Deploy
 
 # 触发条件：PR创建/更新/重新打开时
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
 
 jobs:
